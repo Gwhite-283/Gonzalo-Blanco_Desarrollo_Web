@@ -15,7 +15,7 @@ header {
 }
 
 body {
-    background-color: #3c322a;
+    background-image: url(../img/vintage-wood-texture-background-1549438.jpg);
     color: rgb(3, 3, 3);
 }
 
@@ -63,6 +63,7 @@ img {
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .comentario{
@@ -71,10 +72,27 @@ img {
 }
 
 .parr_intro {
-    border: 1px solid black;
     margin: 50px;
+    border-radius: 25px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.416);
+}
+
+label{
+    font-size: large;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.formulario{
+    margin: 10px;
+    border-radius: 25px;
+    padding: 20px;
+    background: rgba(161, 153, 66, 0.562);
 }
 
 .foto_corte1{
