@@ -15,12 +15,12 @@ header {
 }
 
 body {
-    background-color: #3c322a;
+    background-image: url(../img/vintage-wood-texture-background-1549438.jpg);
     color: rgb(3, 3, 3);
 }
 
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -35,17 +35,17 @@ img {
     width: 100%;
 }
 
-.menu li{
+.menu li {
     display: inline-flex;
     margin: 4px;
 
 }
 
-.logo{
+.logo {
     width: 200px;
 }
 
-.banner{
+.banner {
     background-image: url(../img/habilitacion-peluqueria-barberia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ img {
     width: 100%;
 }
 
-.foto_intro{
+.foto_intro {
     width: 100%;
     height: 400px;
 }
@@ -63,33 +63,62 @@ img {
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
     text-align: center;
+    margin-top: 30px;
 }
 
-.comentario{
-    padding: auto;;
+.comentario {
+    padding: auto;
+    ;
     gap: 20px;
 }
 
 .parr_intro {
-    border: 1px solid black;
     margin: 50px;
+    border-radius: 25px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.416);
 }
 
-.foto_corte1{
+label {
+    font-size: large;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.formulario {
+    margin: 10px;
+    border-radius: 25px;
+    padding: 20px;
+    background: rgba(161, 153, 66, 0.562);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+
+.foto_corte1 {
     width: 600px;
 }
 
-.foto_nos{
+.foto_nos {
     margin: 80px 15px;
     width: 700px;
 }
 
-.servicios{
+.servicios {
     font-size: 30px;
 }
-.precios{
+
+.precios {
     border: 1px solid black;
     margin: 50px;
     padding: 100px;
@@ -97,7 +126,7 @@ img {
 }
 
 
-.card{
+.card {
     background: rgba(149, 146, 146, 0.336);
     padding: 6px 30px;
     border-radius: 8px;
@@ -105,7 +134,7 @@ img {
 }
 
 /*lo vi en un video de Youtube y quise probarlo*/
-.card:hover{
+.card:hover {
     background: rgba(255, 255, 255, 0.575);
 }
 
@@ -119,6 +148,7 @@ footer {
 .icono-redes {
     width: 30px;
 }
+
 .whatsapp {
     width: 60px;
     position: fixed;
